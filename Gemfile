@@ -46,5 +46,5 @@ gem 'figaro'
 gem 'gibbon'
 gem 'google_drive'
 gem 'high_voltage'
-
+gem 'simple_form'
 
