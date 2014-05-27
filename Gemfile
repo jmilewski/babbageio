@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
@@ -41,4 +41,10 @@ gem 'spring',        group: :development
 gem 'therubyracer'
 gem 'less-rails'
 gem 'twitter-bootstrap-rails'
+
+gem 'figaro'
+gem 'gibbon'
+gem 'google_drive'
+gem 'high_voltage'
+
 
