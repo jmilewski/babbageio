@@ -1,0 +1,2 @@
+module PriceEarningsHelper
+end

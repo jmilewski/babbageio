@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @price_earning.price %>
+</p>
+
+<p>
+  <strong>Earnings:</strong>
+  <%= @price_earning.earnings %>
+</p>
+
+<p>
+  <strong>Petotal:</strong>
+  <%= @price_earning.petotal %>
+</p>
+
+<%= link_to 'Edit', edit_price_earning_path(@price_earning) %> |
+<%= link_to 'Back', price_earnings_path %>

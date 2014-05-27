@@ -1,0 +1,29 @@
+<h1>Listing price_earnings</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Price</th>
+      <th>Earnings</th>
+      <th>Petotal</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @price_earnings.each do |price_earning| %>
+      <tr>
+        <td><%= price_earning.price %></td>
+        <td><%= price_earning.earnings %></td>
+        <td><%= price_earning.petotal %></td>
+        <td><%= link_to 'Show', price_earning %></td>
+        <td><%= link_to 'Edit', edit_price_earning_path(price_earning) %></td>
+        <td><%= link_to 'Destroy', price_earning, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Price earning', new_price_earning_path %>
