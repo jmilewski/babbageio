@@ -41,10 +41,12 @@ gem 'spring',        group: :development
 gem 'therubyracer'
 gem 'less-rails'
 gem 'twitter-bootstrap-rails'
-
 gem 'figaro'
 gem 'gibbon'
 gem 'google_drive'
 gem 'high_voltage'
 gem 'simple_form'
+gem 'better_errors', group: :development
+gem 'quiet_assets', group: :development
+gem 'rails_layout', group: :development
 
